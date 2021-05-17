@@ -13,10 +13,10 @@ def get_impf_zentrums():
 
 id_url_mapping = {
     "arena": "https://www.doctolib.de/institut/berlin/ciz-berlin-berlin?pid=practice-158431",
-    "tempelhof": "https://bit.ly/2PONurc",
-    "tegel": "https://bit.ly/3eeAIeT",
+    "tempelhof": "https://www.doctolib.de/institut/berlin/ciz-berlin-berlin?pid=practice-158433",
+    "tegel": "https://www.doctolib.de/institut/berlin/ciz-berlin-berlin?pid=practice-158436",
     "erika": "https://www.doctolib.de/institut/berlin/ciz-berlin-berlin?pid=practice-158437",
-    "messe": "https://bit.ly/3b0xCJr",
+    "messe": "https://www.doctolib.de/institut/berlin/ciz-berlin-berlin?pid=practice-158434",
     "velodrom": "https://www.doctolib.de/institut/berlin/ciz-berlin-berlin?pid=practice-158435"
 }
 
@@ -93,7 +93,7 @@ def create_and_get_driver():
 
 if __name__ == '__main__':
     while True:
-        time.sleep(2)
+        time.sleep(1)
         for open_slot in open_slots():
             is_open, driver = get_open_window_for_slot_or_else(open_slot)
             if not is_open:
