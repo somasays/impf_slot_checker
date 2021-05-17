@@ -98,6 +98,7 @@ if __name__ == '__main__':
             is_open, driver = get_open_window_for_slot_or_else(open_slot)
             if not is_open:
                 doctolib_login(driver)
+                time.sleep(2)
                 driver.get(open_slot)
 
 
