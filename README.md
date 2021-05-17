@@ -9,6 +9,10 @@ Add your doctolib credentials to  creds.template and rename the file to creds
 ~ pipenv shell
 ~ python main.py
 ```
+![](instruction.gif)
+
+
+
 running main.py will open a new chrome window for every impfzentrum that has a open slot in the last minute
 and you can select the vaccine and try to book the appointment.
 
