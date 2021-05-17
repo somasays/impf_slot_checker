@@ -27,7 +27,7 @@ def is_slot_open(centre_stat):
         stats = centre_stat['stats']
         for key, value in stats.items():
             stat_date = datetime.strptime(key, '%Y-%m-%d')
-            if stat_date >= datetime.fromisoformat('2021-07-10'):
+            if stat_date >= datetime.fromisoformat('2021-06-07'):
                 return id_url_mapping[centre_stat['id']]
 
 
