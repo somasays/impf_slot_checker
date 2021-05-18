@@ -1,6 +1,13 @@
 Install python > 3.7
+Follow installation instructions here that is suitable for your operating system
+https://realpython.com/installing-python/
+
+Install pip
+https://pip.pypa.io/en/stable/installing/
 
 Install pipenv
+https://pipenv-fork.readthedocs.io/en/latest/install.html#pragmatic-installation-of-pipenv
+
 
 Add your doctolib credentials to  creds.template and rename the file to creds
 
